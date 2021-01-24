@@ -1,0 +1,38 @@
+#comentário de uma linha começam com jogo da velha
+
+=begin
+Esse é um bloco 
+de 
+comentário
+print "Esse comando será ignorado pelo interpretador"
+=end
+
+
+Variáveis
+	Ruby tem tipagem dinâmica.
+
+	Costantes são declaradas em maiúsculo.
+		MAXIMO = 10
+
+	O operador = faz atribuição de valores a variáveis. Ruby tem suporte a atribuição paralela:
+		a = 10
+		b = 20
+		c, d = 30, 40
+
+	Para verificar se uma variável é de um tipo especifico usa-se o método kind_of? :
+		x = "Ruby"
+		x.kind_of? Integer #Retorna false
+		x.kind_of? String #Retorna true
+	
+	Para perguntar à variavel o seu tipo usa-se .class:
+		y = 1.5
+		y.class
+
+	Conversão de tipos
+		z = 10
+		z = z.to_f #converte de inteiro para float
+		z = z.to_i #converte de float para inteiro 
+		z = z.to_s #converte para string
+		
+			
+
