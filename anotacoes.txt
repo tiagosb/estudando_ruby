@@ -30,9 +30,20 @@ Variáveis
 
 	Conversão de tipos
 		z = 10
-		z = z.to_f #converte de inteiro para float
-		z = z.to_i #converte de float para inteiro 
-		z = z.to_s #converte para string
 		
-			
+		z = z.to_f #converte de inteiro para float
+		z = Float(z) #mesma coisa
+
+		z = z.to_i #converte de float para inteiro 
+		z = Integer(z) #mesma coisa
+
+		z = z.to_s #converte para string
+		z = String(z) #mesma coisa		
+	Escopos
+		Existem 4 escopos, identificados por prefixos nos nomes das variávels:
+		1: $variavel_global #seu uso é desencorajado; gera bugs difíceis de serem rastrados
+		2: @variavel_de_instancia
+		3: CONSTANTE #todas as letras em maiúsculo define uma constante
+		4: @@variável_de_classe
+		5: variavel_local ou _variavel_local
 
