@@ -1,0 +1,6 @@
+Para importar classes de outros arquivos usa-se a palavra chave require seguida do nome do arquivo entre aspas:
+	require './NomeDoArquivo'
+
+Para implementar herança usa-se o operador menor que(<):
+	classe_filha < classe_pai
+
