@@ -60,7 +60,7 @@ puts "O operador & faz a intercessão de arrays: #{sistemas_operacionais & siste
 puts "Por fim o operador - nos dá diferença: #{sistemas_operacionais - sistemas_linux}\n" 
 puts "\nPara remover elementos duplicados existe o método uniq: array.uniq;"
 puts "O comando acima não altera o array original; para isso basta fazer: array.uniq!\n"
-puts "Em Ruby arrays tamem possum os métodos push e pop para incluir e remover elementos;"
+puts "Em Ruby arrays tambem possum os métodos push e pop para incluir e remover elementos;"
 nomes = ["Pedro", "Maria"]
 nomes.push "João"
 nomes.pop #remove o último item

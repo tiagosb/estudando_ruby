@@ -26,7 +26,7 @@ Variáveis
 	
 	Para perguntar à variavel o seu tipo usa-se .class:
 		y = 1.5
-		y.class
+		y.class #Float
 
 	Conversão de tipos
 		z = 10

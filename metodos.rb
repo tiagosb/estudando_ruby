@@ -18,7 +18,7 @@ end
 exibe("Banana")
 exibe("Manga", "Uva")
 
-#É possível dar um apelido para o método; pra que isso???
+#É possível dar um apelido para o método; pra que isso??? - ps: tipo o `as` do Python
 alias calcula soma
 puts calcula(5, 5)
 
